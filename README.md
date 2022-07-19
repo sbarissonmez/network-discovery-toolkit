@@ -178,8 +178,8 @@ This script uses the Nornir inventory used in the setup and performs two operati
 store them using the following directory convention:
 
 ```bash
-.
-|
+
+
 ├── configs
     ├── leaf1-ios
     │   ├── running.txt
