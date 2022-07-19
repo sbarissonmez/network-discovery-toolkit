@@ -1,0 +1,15 @@
+{
+  "default": {
+    "name": "default",
+    "type": "DEFAULT_INSTANCE",
+    "state": {
+      "route_distinguisher": ""
+    },
+    "interfaces": {
+      "interface": {
+        "Management1": {},
+        "Loopback0": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "admin": {
+    "level": 15,
+    "password": "$6$20k1p31/$5JkqomKbiLXyKkSwVCG0pQNf8JLSM4TBfC/F2e.htNRnQunAPo.Nw/0SSddpdEA3LQAqL5yYvXmsk5wvr3QQ//",
+    "sshkeys": []
+  },
+  "lab": {
+    "level": 15,
+    "password": "$6$AfXZVOcP$jyyjSXHz.0fAhO4Cv/qnLqwcoTxffIkY.eoqk.Pvf0cPckxIjhgrxz5YeBSv..fHtd4meyIWW.xUBMZInT/zN.",
+    "sshkeys": [
+      "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDH70m5Sd4KBJl+XjUhL6PvKpSISsx7OCJrv6xPZbFzXDZ/oPsJ/GoY2g1GLSx8/zJLd8a2V08c6ryl+eU6zknhWAZZ+WRiYVHaLjTbt0J6pSS3AfpEto+MpNOsowK3XLrPGynfWm2Lzhy9CGoL8anilYn00+bDl0yynbVrUAGgpVtqql/50HBOaDrI4p8at0agjv0POAyo1TP5ZLyZXBB4w7NPhc6D5zvghmIHWpoZckPH3p0Rzx+rxCsflWDrbfJBQ8GhBQpg8Vj1hTwVOOo3IkeQ2lpg12p+8r4wwNY0Vx4/3uLv3KkHsqGXuK9den4ZKGkhpAZTj2IzDm8pE9UB8YxsX/6eW2yge92xD3gJbTOcycXHHl31hdC7Pzka3eAZ2K/6wmlB2frQschgdxb6ApB4fR5rCLXNSeI8luR4KS7OHm5CFcsGRPuY0s9mbBUlgH7DEVKZrd2xguoeiGjEjmguGXslEz5nnjjTDncoi66/Wu6x3N4yFr+aH/UOZu+SNOTNTLMnMhZJHZ0Pr/Z1woUmGR3xeS2i6/JnzgGKp7u+8aetVYm2RxNgGy/qZdymoV1z6r9sLWraEV8yFfZzwd+hBNMvPjYPfTKjRhc9y17KsUQazn1J13hwXiZwLcly91s2CIxrxwyxNFmwSQ4tY6fmISDLF6AginGnqPkzrQ== lab@nebula2"
+    ]
+  },
+  "root": {
+    "level": 20,
+    "password": "$6$lZtWtwQ/$M7ep5AX6icWgrWkTO0nNpmLNrAem7D/iaHEmRFMPhbPc1M2NiVzpN0Wm4jNO5zAYoJyYkR1vDdQ4hchlq61Lj0",
+    "sshkeys": []
+  }
+}

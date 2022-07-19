@@ -1,0 +1,232 @@
+!
+
+!
+version 15.6
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname leaf2-ios
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no logging console
+!
+aaa new-model
+!
+!
+aaa authentication login default local
+!
+!
+!
+!
+!
+aaa session-id common
+ethernet lmi ce
+!
+!
+!
+mmi polling-interval 60
+no mmi auto-configure
+no mmi pvc
+mmi snmp-timeout 180
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+username admin privilege 15 secret 5 $1$NQR9$QnQqhTV3VGppo6K8DLeOi1
+username lab privilege 15 secret 5 $1$6Knj$Lzqjp/rhT6KE4kJ4MARVR.
+!
+redundancy
+!
+lldp run
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ ip address 2.2.2.2 255.255.255.255
+!
+interface GigabitEthernet0/0
+ description // Connected to spine-1
+ ip address 10.1.2.2 255.255.255.252
+ duplex auto
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/1
+ description // Connected to spine-2
+ ip address 10.2.2.2 255.255.255.252
+ duplex auto
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/2
+ no ip address
+ duplex full
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/3
+ no ip address
+ duplex full
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/4
+ no ip address
+ duplex full
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/5
+ no ip address
+ duplex full
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/6
+ no ip address
+ duplex full
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/7
+ ip address 172.29.151.4 255.255.255.0
+ duplex auto
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/8
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/9
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/10
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/11
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/12
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/13
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/14
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ media-type rj45
+!
+interface GigabitEthernet0/15
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+ media-type rj45
+!
+router ospf 1
+ network 2.2.2.2 0.0.0.0 area 0
+ network 10.1.0.0 0.0.255.255 area 0
+ network 10.2.0.0 0.0.255.255 area 0
+!
+router bgp 65011
+ bgp router-id 1.1.1.1
+ bgp log-neighbor-changes
+ neighbor 11.11.11.11 remote-as 65000
+ neighbor 11.11.11.11 ebgp-multihop 2
+ neighbor 11.11.11.11 update-source Loopback0
+ neighbor 22.22.22.22 remote-as 65000
+ neighbor 22.22.22.22 ebgp-multihop 2
+ neighbor 22.22.22.22 update-source Loopback0
+ !
+ address-family ipv4
+  neighbor 11.11.11.11 activate
+  neighbor 22.22.22.22 activate
+ exit-address-family
+!
+ip forward-protocol nd
+!
+!
+no ip http server
+no ip http secure-server
+ip route 0.0.0.0 0.0.0.0 172.29.151.254
+ip ssh version 2
+ip ssh pubkey-chain
+  username lab
+   key-hash ssh-rsa 6CCF9BB738AA861BB95D1F6FE51C2457 
+!
+!
+snmp-server community CommString123 RO
+!
+!
+!
+!
+control-plane
+!
+!
+line con 0
+ exec-timeout 0 0
+line aux 0
+line vty 0 4
+ privilege level 15
+ transport input ssh
+!
+no scheduler allocate
+!
+end

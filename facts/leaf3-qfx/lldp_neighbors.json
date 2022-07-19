@@ -1,0 +1,14 @@
+{
+  "xe-0/0/0": [
+    {
+      "hostname": "spine1-nxos",
+      "port": "Ethernet1/3"
+    }
+  ],
+  "xe-0/0/1": [
+    {
+      "hostname": "spine2-nxos",
+      "port": "Ethernet1/3"
+    }
+  ]
+}

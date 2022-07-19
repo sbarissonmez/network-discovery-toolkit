@@ -1,0 +1,92 @@
+{
+  "Management1": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 1637269437.581568,
+    "mtu": 1500,
+    "speed": 1000.0,
+    "mac_address": "50:00:00:07:00:00"
+  },
+  "Ethernet8": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 1637269443.0132263,
+    "mtu": 9214,
+    "speed": 0.0,
+    "mac_address": "50:00:00:07:00:08"
+  },
+  "Loopback0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 1637269433.2614226,
+    "mtu": 65535,
+    "speed": 0.0,
+    "mac_address": ""
+  },
+  "Ethernet2": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 1656514097.7287989,
+    "mtu": 1500,
+    "speed": 0.0,
+    "mac_address": "50:00:00:E4:72:94"
+  },
+  "Ethernet3": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 1653769504.4796464,
+    "mtu": 9214,
+    "speed": 0.0,
+    "mac_address": "50:00:00:07:00:03"
+  },
+  "Ethernet1": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 1653800097.6839004,
+    "mtu": 1500,
+    "speed": 0.0,
+    "mac_address": "50:00:00:E4:72:94"
+  },
+  "Ethernet6": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 1637269443.2681594,
+    "mtu": 9214,
+    "speed": 0.0,
+    "mac_address": "50:00:00:07:00:06"
+  },
+  "Ethernet7": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 1637269443.3254085,
+    "mtu": 9214,
+    "speed": 0.0,
+    "mac_address": "50:00:00:07:00:07"
+  },
+  "Ethernet4": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 1637269443.3807254,
+    "mtu": 9214,
+    "speed": 0.0,
+    "mac_address": "50:00:00:07:00:04"
+  },
+  "Ethernet5": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 1637269443.4409828,
+    "mtu": 9214,
+    "speed": 0.0,
+    "mac_address": "50:00:00:07:00:05"
+  }
+}

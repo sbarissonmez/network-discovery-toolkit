@@ -1,0 +1,14 @@
+{
+  "GigabitEthernet0/0": [
+    {
+      "port": "Ethernet1/1",
+      "hostname": "spine1-nxos"
+    }
+  ],
+  "GigabitEthernet0/1": [
+    {
+      "port": "Ethernet1/1",
+      "hostname": "spine2-nxos"
+    }
+  ]
+}

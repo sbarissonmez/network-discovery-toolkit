@@ -1,0 +1,38 @@
+{
+  "xe-0/0/0": [
+    {
+      "parent_interface": "-",
+      "remote_port": "Ethernet1/4",
+      "remote_chassis_id": "50:0B:00:00:01:04",
+      "remote_port_description": "// Connected to leaf-4",
+      "remote_system_name": "spine1-nxos",
+      "remote_system_description": "Cisco Nexus Operating System (NX-OS) Software 9.3(7a)\nTAC support: http://www.cisco.com/tac\nCopyright (c) 2002-2021, Cisco Systems, Inc. All rights reserved.",
+      "remote_system_capab": [
+        "bridge",
+        "router"
+      ],
+      "remote_system_enable_capab": [
+        "bridge",
+        "router"
+      ]
+    }
+  ],
+  "xe-0/0/1": [
+    {
+      "parent_interface": "-",
+      "remote_port": "Ethernet1/4",
+      "remote_chassis_id": "50:0C:00:00:01:04",
+      "remote_port_description": "// Connected to leaf-4",
+      "remote_system_name": "spine2-nxos",
+      "remote_system_description": "Cisco Nexus Operating System (NX-OS) Software 9.3(7a)\nTAC support: http://www.cisco.com/tac\nCopyright (c) 2002-2021, Cisco Systems, Inc. All rights reserved.",
+      "remote_system_capab": [
+        "bridge",
+        "router"
+      ],
+      "remote_system_enable_capab": [
+        "bridge",
+        "router"
+      ]
+    }
+  ]
+}

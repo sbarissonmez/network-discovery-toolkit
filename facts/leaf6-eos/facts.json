@@ -1,0 +1,21 @@
+{
+  "hostname": "leaf6-eos",
+  "fqdn": "leaf6-eos",
+  "vendor": "Arista",
+  "model": "vEOS",
+  "serial_number": "",
+  "os_version": "4.23.8M-22478418.4238M",
+  "uptime": 20980763.645176172,
+  "interface_list": [
+    "Ethernet1",
+    "Ethernet2",
+    "Ethernet3",
+    "Ethernet4",
+    "Ethernet5",
+    "Ethernet6",
+    "Ethernet7",
+    "Ethernet8",
+    "Loopback0",
+    "Management1"
+  ]
+}

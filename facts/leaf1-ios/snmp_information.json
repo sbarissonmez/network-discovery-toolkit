@@ -1,0 +1,11 @@
+{
+  "chassis_id": "9W5VPTBQ6YOC586TLJ7U8",
+  "community": {
+    "CommString123": {
+      "mode": "ro",
+      "acl": "N/A"
+    }
+  },
+  "contact": "unknown",
+  "location": "unknown"
+}

@@ -1,0 +1,44 @@
+{
+  "_": {
+    "type": "",
+    "multipath": false,
+    "apply_groups": [],
+    "remove_private_as": false,
+    "multihop_ttl": 0,
+    "remote_as": 0,
+    "local_address": "",
+    "local_as": 65013,
+    "description": "",
+    "import_policy": "",
+    "export_policy": "",
+    "prefix_limit": {},
+    "neighbors": {
+      "11.11.11.11": {
+        "description": "",
+        "remote_as": 65000,
+        "local_address": "",
+        "local_as": 65013,
+        "nhs": false,
+        "route_reflector_client": false,
+        "import_policy": "",
+        "export_policy": "",
+        "authentication_key": "",
+        "prefix_limit": {},
+        "multihop_ttl": 10
+      },
+      "22.22.22.22": {
+        "description": "",
+        "remote_as": 65000,
+        "local_address": "",
+        "local_as": 65013,
+        "nhs": false,
+        "route_reflector_client": false,
+        "import_policy": "",
+        "export_policy": "",
+        "authentication_key": "",
+        "prefix_limit": {},
+        "multihop_ttl": 2
+      }
+    }
+  }
+}

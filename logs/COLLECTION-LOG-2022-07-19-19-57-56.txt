@@ -1,0 +1,1179 @@
+Start Processing Host - Interfaces: leaf1-ios
+Interface Name: GigabitEthernet0/0
+Interface Description: // Connected to spine-1
+Interface Up: True
+Interface Enabled: True
+Interface Name: GigabitEthernet0/1
+Interface Description: // Connected to spine-2-
+Interface Up: True
+Interface Enabled: True
+Interface Name: GigabitEthernet0/2
+Interface Description: 
+Interface Up: False
+Interface Enabled: True
+Interface Name: GigabitEthernet0/3
+Interface Description: 
+Interface Up: False
+Interface Enabled: True
+Interface Name: GigabitEthernet0/4
+Interface Description: 
+Interface Up: False
+Interface Enabled: True
+Interface Name: GigabitEthernet0/5
+Interface Description: 
+Interface Up: False
+Interface Enabled: True
+Interface Name: GigabitEthernet0/6
+Interface Description: 
+Interface Up: False
+Interface Enabled: True
+Interface Name: GigabitEthernet0/7
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: GigabitEthernet0/8
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: GigabitEthernet0/9
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: GigabitEthernet0/10
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: GigabitEthernet0/11
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: GigabitEthernet0/12
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: GigabitEthernet0/13
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: GigabitEthernet0/14
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: GigabitEthernet0/15
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: Loopback0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+End Processing Host - Interfaces: leaf1-ios
+
+Start Processing Host - Interfaces: leaf2-ios
+Interface Name: GigabitEthernet0/0
+Interface Description: // Connected to spine-1
+Interface Up: True
+Interface Enabled: True
+Interface Name: GigabitEthernet0/1
+Interface Description: // Connected to spine-2
+Interface Up: True
+Interface Enabled: True
+Interface Name: GigabitEthernet0/2
+Interface Description: 
+Interface Up: False
+Interface Enabled: True
+Interface Name: GigabitEthernet0/3
+Interface Description: 
+Interface Up: False
+Interface Enabled: True
+Interface Name: GigabitEthernet0/4
+Interface Description: 
+Interface Up: False
+Interface Enabled: True
+Interface Name: GigabitEthernet0/5
+Interface Description: 
+Interface Up: False
+Interface Enabled: True
+Interface Name: GigabitEthernet0/6
+Interface Description: 
+Interface Up: False
+Interface Enabled: True
+Interface Name: GigabitEthernet0/7
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: GigabitEthernet0/8
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: GigabitEthernet0/9
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: GigabitEthernet0/10
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: GigabitEthernet0/11
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: GigabitEthernet0/12
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: GigabitEthernet0/13
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: GigabitEthernet0/14
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: GigabitEthernet0/15
+Interface Description: 
+Interface Up: False
+Interface Enabled: False
+Interface Name: Loopback0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+End Processing Host - Interfaces: leaf2-ios
+
+Start Processing Host - Interfaces: leaf3-qfx
+Interface Name: gr-0/0/0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pfe-0/0/0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pfh-0/0/0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/1
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/2
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/3
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/4
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/5
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/6
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/7
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/8
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/9
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/10
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/11
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: bme0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: cbp0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: dsc
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em1
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em2
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em3
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em4
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em5
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em6
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em7
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em8
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em9
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em10
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em11
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em12
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em13
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em14
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: esi
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: gre
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: ipip
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: irb
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: jsrv
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: lo0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: lsi
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: mtun
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pimd
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pime
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pip0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: tap
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: vme
+Interface Description: 
+Interface Up: False
+Interface Enabled: True
+Interface Name: vtep
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pfe-0/0/0.16383
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pfh-0/0/0.16383
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pfh-0/0/0.16384
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/0.0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/1.0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/2.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/3.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/4.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/5.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/6.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/7.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/8.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/9.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/10.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/11.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: bme0.0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em0.0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em1.0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em2.32768
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em4.32768
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: jsrv.1
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: lo0.0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: lo0.16385
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+End Processing Host - Interfaces: leaf3-qfx
+
+Start Processing Host - Interfaces: leaf4-qfx
+Interface Name: gr-0/0/0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pfe-0/0/0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pfh-0/0/0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/1
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/2
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/3
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/4
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/5
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/6
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/7
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/8
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/9
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/10
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/11
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: bme0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: cbp0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: dsc
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em1
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em2
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em3
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em4
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em5
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em6
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em7
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em8
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em9
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em10
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em11
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em12
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em13
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em14
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: esi
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: gre
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: ipip
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: irb
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: jsrv
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: lo0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: lsi
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: mtun
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pimd
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pime
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pip0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: tap
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: vme
+Interface Description: 
+Interface Up: False
+Interface Enabled: True
+Interface Name: vtep
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pfe-0/0/0.16383
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pfh-0/0/0.16383
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: pfh-0/0/0.16384
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/0.0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/1.0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/2.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/3.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/4.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/5.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/6.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/7.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/8.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/9.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/10.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: xe-0/0/11.16386
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: bme0.0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em0.0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em1.0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em2.32768
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: em4.32768
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: jsrv.1
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: lo0.0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: lo0.16385
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+End Processing Host - Interfaces: leaf4-qfx
+
+Start Processing Host - Interfaces: leaf5-eos
+Interface Name: Management1
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet8
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Loopback0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet2
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet3
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet1
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet6
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet7
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet4
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet5
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+End Processing Host - Interfaces: leaf5-eos
+
+Start Processing Host - Interfaces: leaf6-eos
+Interface Name: Management1
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet8
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Loopback0
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet2
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet3
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet1
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet6
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet7
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet4
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+Interface Name: Ethernet5
+Interface Description: 
+Interface Up: True
+Interface Enabled: True
+End Processing Host - Interfaces: leaf6-eos
+
+Start Processing Host - Facts: leaf1-ios
+Vendor: Cisco
+Model: IOSv
+OS Version: IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Serial Number: 9W5VPTBQ6YOC586TLJ7U8
+Uptime: 312240.0
+End Processing Host - Facts: leaf1-ios
+
+Start Processing Host - Facts: leaf2-ios
+Vendor: Cisco
+Model: IOSv
+OS Version: IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Serial Number: 93IGPL0NJHJSU39YFPRVI
+Uptime: 804540.0
+End Processing Host - Facts: leaf2-ios
+
+Start Processing Host - Facts: leaf3-qfx
+Vendor: Juniper
+Model: VQFX-10000
+OS Version: 18.1R3-S2.5
+Serial Number: 84665204160
+Uptime: 20980526.0
+End Processing Host - Facts: leaf3-qfx
+
+Start Processing Host - Facts: leaf4-qfx
+Vendor: Juniper
+Model: VQFX-10000
+OS Version: 18.1R3-S2.5
+Serial Number: 01856867614
+Uptime: 20980526.0
+End Processing Host - Facts: leaf4-qfx
+
+Start Processing Host - Facts: leaf5-eos
+Vendor: Arista
+Model: vEOS
+OS Version: 4.23.8M-22478418.4238M
+Serial Number: 
+Uptime: 20980525.570544958
+End Processing Host - Facts: leaf5-eos
+
+Start Processing Host - Facts: leaf6-eos
+Vendor: Arista
+Model: vEOS
+OS Version: 4.23.8M-22478418.4238M
+Serial Number: 
+Uptime: 20980519.548508883
+End Processing Host - Facts: leaf6-eos
+
+Start Processing Host - Interfaces IP: leaf1-ios
+IPv6 Address not configured
+Interface Name: GigabitEthernet0/0
+IPv4 Address: 10.1.1.2
+IPv4 Prefix Length: 30
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: GigabitEthernet0/1
+IPv4 Address: 10.2.1.2
+IPv4 Prefix Length: 30
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: GigabitEthernet0/7
+IPv4 Address: 172.29.151.3
+IPv4 Prefix Length: 24
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: Loopback0
+IPv4 Address: 1.1.1.1
+IPv4 Prefix Length: 32
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+End Processing Host - Interfaces IP: leaf1-ios
+
+Start Processing Host - Interfaces IP: leaf2-ios
+IPv6 Address not configured
+Interface Name: GigabitEthernet0/0
+IPv4 Address: 10.1.2.2
+IPv4 Prefix Length: 30
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: GigabitEthernet0/1
+IPv4 Address: 10.2.2.2
+IPv4 Prefix Length: 30
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: GigabitEthernet0/7
+IPv4 Address: 172.29.151.4
+IPv4 Prefix Length: 24
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: Loopback0
+IPv4 Address: 2.2.2.2
+IPv4 Prefix Length: 32
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+End Processing Host - Interfaces IP: leaf2-ios
+
+Start Processing Host - Interfaces IP: leaf3-qfx
+IPv6 Address not configured
+Interface Name: xe-0/0/0.0
+IPv4 Address: 10.1.3.2
+IPv4 Prefix Length: 30
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: xe-0/0/1.0
+IPv4 Address: 10.2.3.2
+IPv4 Prefix Length: 30
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: bme0.0
+IPv4 Address: 128.0.0.63
+IPv4 Prefix Length: 2
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: em0.0
+IPv4 Address: 172.29.151.5
+IPv4 Prefix Length: 24
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: em1.0
+IPv4 Address: 169.254.0.2
+IPv4 Prefix Length: 24
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: em2.32768
+IPv4 Address: 192.168.1.2
+IPv4 Prefix Length: 24
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: em4.32768
+IPv4 Address: 192.0.2.2
+IPv4 Prefix Length: 24
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: jsrv.1
+IPv4 Address: 128.0.0.127
+IPv4 Prefix Length: 2
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+Interface Name: lo0.0
+IPv4 Address: 3.3.3.3
+IPv4 Prefix Length: 32
+IPv6 Address: fe80::205:860f:fc71:6400
+IPv6 Prefix Length: 128
+End Processing Host - Interfaces IP: leaf3-qfx
+
+Start Processing Host - Interfaces IP: leaf4-qfx
+IPv6 Address not configured
+Interface Name: xe-0/0/0.0
+IPv4 Address: 10.1.4.2
+IPv4 Prefix Length: 30
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: xe-0/0/1.0
+IPv4 Address: 10.2.4.2
+IPv4 Prefix Length: 30
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: bme0.0
+IPv4 Address: 128.0.0.63
+IPv4 Prefix Length: 2
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: em0.0
+IPv4 Address: 172.29.151.6
+IPv4 Prefix Length: 24
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: em1.0
+IPv4 Address: 169.254.0.2
+IPv4 Prefix Length: 24
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: em2.32768
+IPv4 Address: 192.168.1.2
+IPv4 Prefix Length: 24
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: em4.32768
+IPv4 Address: 192.0.2.2
+IPv4 Prefix Length: 24
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+IPv6 Address not configured
+Interface Name: jsrv.1
+IPv4 Address: 128.0.0.127
+IPv4 Prefix Length: 2
+IPv6 Address: NOT CONFIGURED
+IPv6 Prefix Length: NOT CONFIGURED
+Interface Name: lo0.0
+IPv4 Address: 4.4.4.4
+IPv4 Prefix Length: 32
+IPv6 Address: fe80::205:860f:fc71:2700
+IPv6 Prefix Length: 128
+End Processing Host - Interfaces IP: leaf4-qfx
+
+Start Processing Host - Interfaces IP: leaf5-eos
+Interface Name: Management1
+IPv4 Address: 172.29.151.7
+IPv4 Prefix Length: 24
+IPv6 Address: fe80::205:860f:fc71:2700
+IPv6 Prefix Length: 128
+Interface Name: Loopback0
+IPv4 Address: 5.5.5.5
+IPv4 Prefix Length: 32
+IPv6 Address: fe80::205:860f:fc71:2700
+IPv6 Prefix Length: 128
+Interface Name: Ethernet2
+IPv4 Address: 10.2.5.2
+IPv4 Prefix Length: 30
+IPv6 Address: fe80::205:860f:fc71:2700
+IPv6 Prefix Length: 128
+Interface Name: Ethernet1
+IPv4 Address: 10.1.5.2
+IPv4 Prefix Length: 30
+IPv6 Address: fe80::205:860f:fc71:2700
+IPv6 Prefix Length: 128
+End Processing Host - Interfaces IP: leaf5-eos
+
+Start Processing Host - Interfaces IP: leaf6-eos
+Interface Name: Management1
+IPv4 Address: 172.29.151.8
+IPv4 Prefix Length: 24
+IPv6 Address: fe80::205:860f:fc71:2700
+IPv6 Prefix Length: 128
+Interface Name: Loopback0
+IPv4 Address: 6.6.6.6
+IPv4 Prefix Length: 32
+IPv6 Address: fe80::205:860f:fc71:2700
+IPv6 Prefix Length: 128
+Interface Name: Ethernet2
+IPv4 Address: 10.2.6.2
+IPv4 Prefix Length: 30
+IPv6 Address: fe80::205:860f:fc71:2700
+IPv6 Prefix Length: 128
+Interface Name: Ethernet1
+IPv4 Address: 10.1.6.2
+IPv4 Prefix Length: 30
+IPv6 Address: fe80::205:860f:fc71:2700
+IPv6 Prefix Length: 128
+End Processing Host - Interfaces IP: leaf6-eos
+
+Start Processing Host - LLDP: leaf1-ios
+Local Port: GigabitEthernet0/0
+Remote Port: Ethernet1/1
+Remote Hostname: spine1-nxos
+Local Port: GigabitEthernet0/1
+Remote Port: Ethernet1/1
+Remote Hostname: spine2-nxos
+End Processing Host - LLDP: leaf1-ios
+
+Start Processing Host - LLDP: leaf2-ios
+Local Port: GigabitEthernet0/0
+Remote Port: Ethernet1/2
+Remote Hostname: spine1-nxos
+Local Port: GigabitEthernet0/1
+Remote Port: Ethernet1/2
+Remote Hostname: spine2-nxos
+End Processing Host - LLDP: leaf2-ios
+
+Start Processing Host - LLDP: leaf3-qfx
+Local Port: xe-0/0/0
+Remote Port: Ethernet1/3
+Remote Hostname: spine1-nxos
+Local Port: xe-0/0/1
+Remote Port: Ethernet1/3
+Remote Hostname: spine2-nxos
+End Processing Host - LLDP: leaf3-qfx
+
+Start Processing Host - LLDP: leaf4-qfx
+Local Port: xe-0/0/0
+Remote Port: Ethernet1/4
+Remote Hostname: spine1-nxos
+Local Port: xe-0/0/1
+Remote Port: Ethernet1/4
+Remote Hostname: spine2-nxos
+End Processing Host - LLDP: leaf4-qfx
+
+Start Processing Host - LLDP: leaf5-eos
+Local Port: Ethernet1
+Remote Port: Ethernet1/5
+Remote Hostname: spine1-nxos
+Local Port: Ethernet2
+Remote Port: Ethernet1/5
+Remote Hostname: spine2-nxos
+End Processing Host - LLDP: leaf5-eos
+
+Start Processing Host - LLDP: leaf6-eos
+Local Port: Ethernet1
+Remote Port: Ethernet1/6
+Remote Hostname: spine1-nxos
+Local Port: Ethernet2
+Remote Port: Ethernet1/6
+Remote Hostname: spine2-nxos
+End Processing Host - LLDP: leaf6-eos
+
+Start Processing Host - Users: leaf1-ios
+Username: admin
+Level: 15
+Password: $1$fORr$9bKm25XeY3kwKAv.kmB4b0
+SSH Keys: []
+Username: lab
+Level: 15
+Password: $1$lBts$LJ0VtfClm6ec3aWdSM1Zh.
+SSH Keys: ['ssh-rsa 6CCF9BB738AA861BB95D1F6FE51C2457', '']
+End Processing Host - Users: leaf1-ios
+Start Processing Host - Users: leaf2-ios
+Username: admin
+Level: 15
+Password: $1$NQR9$QnQqhTV3VGppo6K8DLeOi1
+SSH Keys: []
+Username: lab
+Level: 15
+Password: $1$6Knj$Lzqjp/rhT6KE4kJ4MARVR.
+SSH Keys: ['ssh-rsa 6CCF9BB738AA861BB95D1F6FE51C2457', '']
+End Processing Host - Users: leaf2-ios
+Start Processing Host - Users: leaf3-qfx
+Username: admin
+Level: 15
+Password: $6$20k1p31/$5JkqomKbiLXyKkSwVCG0pQNf8JLSM4TBfC/F2e.htNRnQunAPo.Nw/0SSddpdEA3LQAqL5yYvXmsk5wvr3QQ//
+SSH Keys: []
+Username: lab
+Level: 15
+Password: $6$AfXZVOcP$jyyjSXHz.0fAhO4Cv/qnLqwcoTxffIkY.eoqk.Pvf0cPckxIjhgrxz5YeBSv..fHtd4meyIWW.xUBMZInT/zN.
+SSH Keys: ['ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDH70m5Sd4KBJl+XjUhL6PvKpSISsx7OCJrv6xPZbFzXDZ/oPsJ/GoY2g1GLSx8/zJLd8a2V08c6ryl+eU6zknhWAZZ+WRiYVHaLjTbt0J6pSS3AfpEto+MpNOsowK3XLrPGynfWm2Lzhy9CGoL8anilYn00+bDl0yynbVrUAGgpVtqql/50HBOaDrI4p8at0agjv0POAyo1TP5ZLyZXBB4w7NPhc6D5zvghmIHWpoZckPH3p0Rzx+rxCsflWDrbfJBQ8GhBQpg8Vj1hTwVOOo3IkeQ2lpg12p+8r4wwNY0Vx4/3uLv3KkHsqGXuK9den4ZKGkhpAZTj2IzDm8pE9UB8YxsX/6eW2yge92xD3gJbTOcycXHHl31hdC7Pzka3eAZ2K/6wmlB2frQschgdxb6ApB4fR5rCLXNSeI8luR4KS7OHm5CFcsGRPuY0s9mbBUlgH7DEVKZrd2xguoeiGjEjmguGXslEz5nnjjTDncoi66/Wu6x3N4yFr+aH/UOZu+SNOTNTLMnMhZJHZ0Pr/Z1woUmGR3xeS2i6/JnzgGKp7u+8aetVYm2RxNgGy/qZdymoV1z6r9sLWraEV8yFfZzwd+hBNMvPjYPfTKjRhc9y17KsUQazn1J13hwXiZwLcly91s2CIxrxwyxNFmwSQ4tY6fmISDLF6AginGnqPkzrQ== lab@nebula2']
+Username: root
+Level: 20
+Password: $6$lZtWtwQ/$M7ep5AX6icWgrWkTO0nNpmLNrAem7D/iaHEmRFMPhbPc1M2NiVzpN0Wm4jNO5zAYoJyYkR1vDdQ4hchlq61Lj0
+SSH Keys: []
+End Processing Host - Users: leaf3-qfx
+Start Processing Host - Users: leaf4-qfx
+Username: admin
+Level: 15
+Password: $6$JemhA5Q4$RXJAl3/KxsVhf6FjllqtdezGrundFZdV1fQf70vu.4AjPl/4cylfV7XugQHBIpnx4wk6MHM7gpTKzgIr0xktY0
+SSH Keys: []
+Username: lab
+Level: 15
+Password: $6$NXUFyiWi$Gdqyq77T0X2rIs3zNvcbf5RsACND1P0PMTiS.aNyRK9LZTJ/EnQ1LvcxAd6yCN4.BByBYhLKXCXFuoSpqcc2n1
+SSH Keys: ['ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDH70m5Sd4KBJl+XjUhL6PvKpSISsx7OCJrv6xPZbFzXDZ/oPsJ/GoY2g1GLSx8/zJLd8a2V08c6ryl+eU6zknhWAZZ+WRiYVHaLjTbt0J6pSS3AfpEto+MpNOsowK3XLrPGynfWm2Lzhy9CGoL8anilYn00+bDl0yynbVrUAGgpVtqql/50HBOaDrI4p8at0agjv0POAyo1TP5ZLyZXBB4w7NPhc6D5zvghmIHWpoZckPH3p0Rzx+rxCsflWDrbfJBQ8GhBQpg8Vj1hTwVOOo3IkeQ2lpg12p+8r4wwNY0Vx4/3uLv3KkHsqGXuK9den4ZKGkhpAZTj2IzDm8pE9UB8YxsX/6eW2yge92xD3gJbTOcycXHHl31hdC7Pzka3eAZ2K/6wmlB2frQschgdxb6ApB4fR5rCLXNSeI8luR4KS7OHm5CFcsGRPuY0s9mbBUlgH7DEVKZrd2xguoeiGjEjmguGXslEz5nnjjTDncoi66/Wu6x3N4yFr+aH/UOZu+SNOTNTLMnMhZJHZ0Pr/Z1woUmGR3xeS2i6/JnzgGKp7u+8aetVYm2RxNgGy/qZdymoV1z6r9sLWraEV8yFfZzwd+hBNMvPjYPfTKjRhc9y17KsUQazn1J13hwXiZwLcly91s2CIxrxwyxNFmwSQ4tY6fmISDLF6AginGnqPkzrQ== lab@nebula2']
+Username: root
+Level: 20
+Password: $6$d9XGYw15$Ka5bDqsOKVTSY9uBqyMjJp53bK3.ST9olQkapntn.WBUXh.ufuhoJj4wiaf3AE62.WMR/nMldF9/vfqCXhRrB/
+SSH Keys: []
+End Processing Host - Users: leaf4-qfx
+Start Processing Host - Users: leaf5-eos
+Username: admin
+Level: 1
+Password: 
+SSH Keys: []
+Username: lab
+Level: 15
+Password: 
+SSH Keys: ['ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDH70m5Sd4KBJl+XjUhL6PvKpSISsx7OCJrv6xPZbFzXDZ/oPsJ/GoY2g1GLSx8/zJLd8a2V08c6ryl+eU6zknhWAZZ+WRiYVHaLjTbt0J6pSS3AfpEto+MpNOsowK3XLrPGynfWm2Lzhy9CGoL8anilYn00+bDl0yynbVrUAGgpVtqql/50HBOaDrI4p8at0agjv0POAyo1TP5ZLyZXBB4w7NPhc6D5zvghmIHWpoZckPH3p0Rzx+rxCsflWDrbfJBQ8GhBQpg8Vj1hTwVOOo3IkeQ2lpg12p+8r4wwNY0Vx4/3uLv3KkHsqGXuK9den4ZKGkhpAZTj2IzDm8pE9UB8YxsX/6eW2yge92xD3gJbTOcycXHHl31hdC7Pzka3eAZ2K/6wmlB2frQschgdxb6ApB4fR5rCLXNSeI8luR4KS7OHm5CFcsGRPuY0s9mbBUlgH7DEVKZrd2xguoeiGjEjmguGXslEz5nnjjTDncoi66/Wu6x3N4yFr+aH/UOZu+SNOTNTLMnMhZJHZ0Pr/Z1woUmGR3xeS2i6/JnzgGKp7u+8aetVYm2RxNgGy/qZdymoV1z6r9sLWraEV8yFfZzwd+hBNMvPjYPfTKjRhc9y17KsUQazn1J13hwXiZwLcly91s2CIxrxwyxNFmwSQ4tY6fmISDLF6AginGnqPkzrQ==']
+End Processing Host - Users: leaf5-eos
+Start Processing Host - Users: leaf6-eos
+Username: admin
+Level: 1
+Password: 
+SSH Keys: []
+Username: lab
+Level: 15
+Password: 
+SSH Keys: ['ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDH70m5Sd4KBJl+XjUhL6PvKpSISsx7OCJrv6xPZbFzXDZ/oPsJ/GoY2g1GLSx8/zJLd8a2V08c6ryl+eU6zknhWAZZ+WRiYVHaLjTbt0J6pSS3AfpEto+MpNOsowK3XLrPGynfWm2Lzhy9CGoL8anilYn00+bDl0yynbVrUAGgpVtqql/50HBOaDrI4p8at0agjv0POAyo1TP5ZLyZXBB4w7NPhc6D5zvghmIHWpoZckPH3p0Rzx+rxCsflWDrbfJBQ8GhBQpg8Vj1hTwVOOo3IkeQ2lpg12p+8r4wwNY0Vx4/3uLv3KkHsqGXuK9den4ZKGkhpAZTj2IzDm8pE9UB8YxsX/6eW2yge92xD3gJbTOcycXHHl31hdC7Pzka3eAZ2K/6wmlB2frQschgdxb6ApB4fR5rCLXNSeI8luR4KS7OHm5CFcsGRPuY0s9mbBUlgH7DEVKZrd2xguoeiGjEjmguGXslEz5nnjjTDncoi66/Wu6x3N4yFr+aH/UOZu+SNOTNTLMnMhZJHZ0Pr/Z1woUmGR3xeS2i6/JnzgGKp7u+8aetVYm2RxNgGy/qZdymoV1z6r9sLWraEV8yFfZzwd+hBNMvPjYPfTKjRhc9y17KsUQazn1J13hwXiZwLcly91s2CIxrxwyxNFmwSQ4tY6fmISDLF6AginGnqPkzrQ==']
+End Processing Host - Users: leaf6-eos
+
+COLLECTION COMPLETE 
+Results located in Excel workbook: Collection-Customer-2022-07-19-19-57-56.xlsx

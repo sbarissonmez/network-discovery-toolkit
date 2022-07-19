@@ -1,0 +1,632 @@
+{
+  "gr-0/0/0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": 800.0,
+    "mtu": 0
+  },
+  "pfe-0/0/0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": 800.0,
+    "mtu": 0
+  },
+  "pfh-0/0/0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": 800.0,
+    "mtu": 0
+  },
+  "xe-0/0/0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 4912681.0,
+    "mac_address": "02:05:86:71:64:03",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/1": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980602.0,
+    "mac_address": "02:05:86:71:64:07",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/2": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980602.0,
+    "mac_address": "02:05:86:71:64:0B",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/3": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980602.0,
+    "mac_address": "02:05:86:71:64:0F",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/4": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980602.0,
+    "mac_address": "02:05:86:71:64:13",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/5": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980602.0,
+    "mac_address": "02:05:86:71:64:17",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/6": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980602.0,
+    "mac_address": "02:05:86:71:64:1B",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/7": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980602.0,
+    "mac_address": "02:05:86:71:64:1F",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/8": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980602.0,
+    "mac_address": "02:05:86:71:64:23",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/9": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980602.0,
+    "mac_address": "02:05:86:71:64:27",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/10": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980602.0,
+    "mac_address": "02:05:86:71:64:2B",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/11": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980602.0,
+    "mac_address": "02:05:86:71:64:2F",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "bme0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "02:00:00:00:00:0A",
+    "speed": -1.0,
+    "mtu": 2000
+  },
+  "cbp0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "02:05:86:71:64:14",
+    "speed": -1.0,
+    "mtu": 9192
+  },
+  "dsc": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": -1.0,
+    "mtu": 0
+  },
+  "em0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:00",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em1": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:01",
+    "speed": 1000.0,
+    "mtu": 9500
+  },
+  "em2": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:02",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em3": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:03",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em4": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:04",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em5": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:05",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em6": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:06",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em7": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:07",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em8": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:08",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em9": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:09",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em10": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:0A",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em11": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:0B",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em12": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:0C",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em13": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:0D",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em14": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:0E",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "esi": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": -1.0,
+    "mtu": 0
+  },
+  "gre": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": -1.0,
+    "mtu": 0
+  },
+  "ipip": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": -1.0,
+    "mtu": 0
+  },
+  "irb": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "02:05:86:71:64:00",
+    "speed": -1.0,
+    "mtu": 1514
+  },
+  "jsrv": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "02:05:86:71:64:00",
+    "speed": -1.0,
+    "mtu": 1514
+  },
+  "lo0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": -1.0,
+    "mtu": 0
+  },
+  "lsi": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": -1.0,
+    "mtu": 0
+  },
+  "mtun": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": -1.0,
+    "mtu": 0
+  },
+  "pimd": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": -1.0,
+    "mtu": 0
+  },
+  "pime": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": -1.0,
+    "mtu": 0
+  },
+  "pip0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "02:05:86:71:5F:DF",
+    "speed": -1.0,
+    "mtu": 9192
+  },
+  "tap": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": -1.0,
+    "mtu": 0
+  },
+  "vme": {
+    "is_up": false,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "02:05:86:71:64:01",
+    "speed": -1.0,
+    "mtu": 1514
+  },
+  "vtep": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": -1.0,
+    "mtu": 0
+  },
+  "pfe-0/0/0.16383": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": 800.0,
+    "mtu": 0
+  },
+  "pfh-0/0/0.16383": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": 800.0,
+    "mtu": 0
+  },
+  "pfh-0/0/0.16384": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": 800.0,
+    "mtu": 0
+  },
+  "xe-0/0/0.0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 4912682.0,
+    "mac_address": "02:05:86:71:64:03",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/1.0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980603.0,
+    "mac_address": "02:05:86:71:64:07",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/2.16386": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980603.0,
+    "mac_address": "02:05:86:71:64:0B",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/3.16386": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980603.0,
+    "mac_address": "02:05:86:71:64:0F",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/4.16386": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980603.0,
+    "mac_address": "02:05:86:71:64:13",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/5.16386": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980603.0,
+    "mac_address": "02:05:86:71:64:17",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/6.16386": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980603.0,
+    "mac_address": "02:05:86:71:64:1B",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/7.16386": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980603.0,
+    "mac_address": "02:05:86:71:64:1F",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/8.16386": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980603.0,
+    "mac_address": "02:05:86:71:64:23",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/9.16386": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980603.0,
+    "mac_address": "02:05:86:71:64:27",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/10.16386": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980603.0,
+    "mac_address": "02:05:86:71:64:2B",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "xe-0/0/11.16386": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": 20980603.0,
+    "mac_address": "02:05:86:71:64:2F",
+    "speed": 10000.0,
+    "mtu": 1514
+  },
+  "bme0.0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "02:00:00:00:00:0A",
+    "speed": -1.0,
+    "mtu": 2000
+  },
+  "em0.0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:00",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em1.0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:01",
+    "speed": 1000.0,
+    "mtu": 9500
+  },
+  "em2.32768": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:02",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "em4.32768": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "50:00:00:02:00:04",
+    "speed": 1000.0,
+    "mtu": 1514
+  },
+  "jsrv.1": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "02:05:86:71:64:00",
+    "speed": -1.0,
+    "mtu": 1514
+  },
+  "lo0.0": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": -1.0,
+    "mtu": 0
+  },
+  "lo0.16385": {
+    "is_up": true,
+    "is_enabled": true,
+    "description": "",
+    "last_flapped": -1.0,
+    "mac_address": "None",
+    "speed": -1.0,
+    "mtu": 0
+  }
+}

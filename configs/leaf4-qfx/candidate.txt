@@ -1,0 +1,198 @@
+## Last changed: 2022-07-18 19:45:25 UTC
+version 18.1R3-S2.5;
+system {
+    host-name leaf4-qfx;
+    root-authentication {
+        encrypted-password "$6$d9XGYw15$Ka5bDqsOKVTSY9uBqyMjJp53bK3.ST9olQkapntn.WBUXh.ufuhoJj4wiaf3AE62.WMR/nMldF9/vfqCXhRrB/";
+    }
+    login {
+        user admin {
+            uid 2000;
+            class super-user;
+            authentication {
+                encrypted-password "$6$JemhA5Q4$RXJAl3/KxsVhf6FjllqtdezGrundFZdV1fQf70vu.4AjPl/4cylfV7XugQHBIpnx4wk6MHM7gpTKzgIr0xktY0";
+            }
+        }
+        user lab {
+            uid 2001;
+            class super-user;
+            authentication {
+                encrypted-password "$6$NXUFyiWi$Gdqyq77T0X2rIs3zNvcbf5RsACND1P0PMTiS.aNyRK9LZTJ/EnQ1LvcxAd6yCN4.BByBYhLKXCXFuoSpqcc2n1";
+                ssh-rsa "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDH70m5Sd4KBJl+XjUhL6PvKpSISsx7OCJrv6xPZbFzXDZ/oPsJ/GoY2g1GLSx8/zJLd8a2V08c6ryl+eU6zknhWAZZ+WRiYVHaLjTbt0J6pSS3AfpEto+MpNOsowK3XLrPGynfWm2Lzhy9CGoL8anilYn00+bDl0yynbVrUAGgpVtqql/50HBOaDrI4p8at0agjv0POAyo1TP5ZLyZXBB4w7NPhc6D5zvghmIHWpoZckPH3p0Rzx+rxCsflWDrbfJBQ8GhBQpg8Vj1hTwVOOo3IkeQ2lpg12p+8r4wwNY0Vx4/3uLv3KkHsqGXuK9den4ZKGkhpAZTj2IzDm8pE9UB8YxsX/6eW2yge92xD3gJbTOcycXHHl31hdC7Pzka3eAZ2K/6wmlB2frQschgdxb6ApB4fR5rCLXNSeI8luR4KS7OHm5CFcsGRPuY0s9mbBUlgH7DEVKZrd2xguoeiGjEjmguGXslEz5nnjjTDncoi66/Wu6x3N4yFr+aH/UOZu+SNOTNTLMnMhZJHZ0Pr/Z1woUmGR3xeS2i6/JnzgGKp7u+8aetVYm2RxNgGy/qZdymoV1z6r9sLWraEV8yFfZzwd+hBNMvPjYPfTKjRhc9y17KsUQazn1J13hwXiZwLcly91s2CIxrxwyxNFmwSQ4tY6fmISDLF6AginGnqPkzrQ== lab@nebula2";
+            }
+        }
+    }
+    services {
+        ssh;
+    }
+    syslog {
+        user * {
+            any emergency;
+        }
+        file messages {
+            any notice;
+            authorization info;
+        }
+        file interactive-commands {
+            interactive-commands any;
+        }
+    }
+    extensions {
+        providers {
+            juniper {
+                license-type juniper deployment-scope commercial;
+            }
+            chef {
+                license-type juniper deployment-scope commercial;
+            }
+        }
+    }
+}
+interfaces {
+    xe-0/0/0 {
+        unit 0 {
+            family inet {
+                address 10.1.4.2/30;
+            }
+        }
+    }
+    xe-0/0/1 {
+        unit 0 {
+            family inet {
+                address 10.2.4.2/30;
+            }
+        }
+    }
+    em0 {
+        unit 0 {
+            family inet {
+                address 172.29.151.6/24;
+            }
+        }
+    }
+    em1 {
+        unit 0 {
+            family inet {
+                address 169.254.0.2/24;
+            }
+        }
+    }
+    lo0 {
+        unit 0 {
+            family inet {
+                address 4.4.4.4/32;
+            }
+        }
+    }
+}
+forwarding-options {
+    storm-control-profiles default {
+        all;
+    }
+}
+routing-options {
+    static {
+        route 0.0.0.0/0 next-hop 172.29.151.254;
+    }
+    router-id 4.4.4.4;
+    autonomous-system 65012;
+}
+protocols {
+    bgp {
+        group ebgp-peers {
+            type external;
+            multihop;
+            local-address 4.4.4.4;
+            neighbor 11.11.11.11 {
+                multihop {
+                    ttl 2;
+                }
+                peer-as 65000;
+            }
+            neighbor 22.22.22.22 {
+                multihop {
+                    ttl 2;
+                }
+                peer-as 65000;
+            }
+        }
+    }
+    ospf {
+        area 0.0.0.0 {
+            interface lo0.0 {
+                passive;
+            }
+            interface xe-0/0/0.0;
+            interface xe-0/0/1.0;
+        }
+    }
+    lldp {
+        neighbour-port-info-display port-id;
+        interface all;
+    }
+    igmp-snooping {
+        vlan default;
+    }
+}
+firewall {
+    family inet {
+        /*
+         ** $Id:$
+         ** $Date:$
+         ** $Revision:$
+         **
+         */
+        filter inside-filter {
+            interface-specific;
+            term web-to-db-mysql {
+                from {
+                    source-address {
+                        10.1.1.1/32;
+                    }
+                    destination-address {
+                        172.16.1.1/32;
+                    }
+                    protocol tcp;
+                    destination-port 3306;
+                }
+                then accept;
+            }
+            term db-to-dns {
+                from {
+                    source-address {
+                        172.16.1.1/32;
+                    }
+                    destination-address {
+                        100.1.2.0/30;
+                    }
+                    protocol udp;
+                    destination-port 53;
+                }
+                then accept;
+            }
+            term db-to-ntp {
+                from {
+                    source-address {
+                        172.16.1.1/32;
+                    }
+                    destination-address {
+                        100.1.1.0/30;
+                    }
+                    protocol udp;
+                    destination-port 123;
+                }
+                then accept;
+            }
+            term deny-all {
+                then {
+                    discard;
+                }
+            }
+        }
+    }
+}
+vlans {
+    default {
+        vlan-id 1;
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "chassis_id": "93IGPL0NJHJSU39YFPRVI",
+  "community": {
+    "CommString123": {
+      "mode": "ro",
+      "acl": "N/A"
+    }
+  },
+  "contact": "unknown",
+  "location": "unknown"
+}

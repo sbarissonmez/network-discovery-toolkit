@@ -1,0 +1,277 @@
+STARTING DISCOVERY: 2022-07-19-19-59-00
+
+** Start Processing Host: leaf1-ios
+Processing running config ... 
+SUCCESS : leaf1-ios - running config
+Processing startup config ... 
+SUCCESS : leaf1-ios - startup config
+Processing Getter: arp_table
+SUCCESS : leaf1-ios - arp_table
+Processing Getter: bgp_neighbors
+SUCCESS : leaf1-ios - bgp_neighbors
+Processing Getter: bgp_neighbors_detail
+SUCCESS : leaf1-ios - bgp_neighbors_detail
+Processing Getter: environment
+SUCCESS : leaf1-ios - environment
+Processing Getter: facts
+SUCCESS : leaf1-ios - facts
+Processing Getter: interfaces
+SUCCESS : leaf1-ios - interfaces
+Processing Getter: interfaces_counters
+SUCCESS : leaf1-ios - interfaces_counters
+Processing Getter: interfaces_ip
+SUCCESS : leaf1-ios - interfaces_ip
+Processing Getter: ipv6_neighbors_table
+SUCCESS : leaf1-ios - ipv6_neighbors_table
+Processing Getter: lldp_neighbors
+SUCCESS : leaf1-ios - lldp_neighbors
+Processing Getter: lldp_neighbors_detail
+SUCCESS : leaf1-ios - lldp_neighbors_detail
+Processing Getter: mac_address_table
+SUCCESS : leaf1-ios - mac_address_table
+Processing Getter: network_instances
+SUCCESS : leaf1-ios - network_instances
+Processing Getter: ntp_peers
+SUCCESS : leaf1-ios - ntp_peers
+Processing Getter: ntp_servers
+SUCCESS : leaf1-ios - ntp_servers
+Processing Getter: ntp_stats
+SUCCESS : leaf1-ios - ntp_stats
+Processing Getter: optics
+SUCCESS : leaf1-ios - optics
+Processing Getter: snmp_information
+SUCCESS : leaf1-ios - snmp_information
+Processing Getter: users
+SUCCESS : leaf1-ios - users
+** End Processing Host: leaf1-ios
+
+** Start Processing Host: leaf2-ios
+Processing running config ... 
+SUCCESS : leaf2-ios - running config
+Processing startup config ... 
+SUCCESS : leaf2-ios - startup config
+Processing Getter: arp_table
+SUCCESS : leaf2-ios - arp_table
+Processing Getter: bgp_neighbors
+SUCCESS : leaf2-ios - bgp_neighbors
+Processing Getter: bgp_neighbors_detail
+SUCCESS : leaf2-ios - bgp_neighbors_detail
+Processing Getter: environment
+SUCCESS : leaf2-ios - environment
+Processing Getter: facts
+SUCCESS : leaf2-ios - facts
+Processing Getter: interfaces
+SUCCESS : leaf2-ios - interfaces
+Processing Getter: interfaces_counters
+SUCCESS : leaf2-ios - interfaces_counters
+Processing Getter: interfaces_ip
+SUCCESS : leaf2-ios - interfaces_ip
+Processing Getter: ipv6_neighbors_table
+SUCCESS : leaf2-ios - ipv6_neighbors_table
+Processing Getter: lldp_neighbors
+SUCCESS : leaf2-ios - lldp_neighbors
+Processing Getter: lldp_neighbors_detail
+SUCCESS : leaf2-ios - lldp_neighbors_detail
+Processing Getter: mac_address_table
+SUCCESS : leaf2-ios - mac_address_table
+Processing Getter: network_instances
+SUCCESS : leaf2-ios - network_instances
+Processing Getter: ntp_peers
+SUCCESS : leaf2-ios - ntp_peers
+Processing Getter: ntp_servers
+SUCCESS : leaf2-ios - ntp_servers
+Processing Getter: ntp_stats
+SUCCESS : leaf2-ios - ntp_stats
+Processing Getter: optics
+SUCCESS : leaf2-ios - optics
+Processing Getter: snmp_information
+SUCCESS : leaf2-ios - snmp_information
+Processing Getter: users
+SUCCESS : leaf2-ios - users
+** End Processing Host: leaf2-ios
+
+** Start Processing Host: leaf5-eos
+Processing running config ... 
+SUCCESS : leaf5-eos - running config
+Processing startup config ... 
+SUCCESS : leaf5-eos - startup config
+Processing Getter: arp_table
+SUCCESS : leaf5-eos - arp_table
+Processing Getter: bgp_config
+SUCCESS : leaf5-eos - bgp_config
+Processing Getter: bgp_neighbors
+SUCCESS : leaf5-eos - bgp_neighbors
+Processing Getter: bgp_neighbors_detail
+SUCCESS : leaf5-eos - bgp_neighbors_detail
+Processing Getter: environment
+SUCCESS : leaf5-eos - environment
+Processing Getter: facts
+SUCCESS : leaf5-eos - facts
+Processing Getter: interfaces
+SUCCESS : leaf5-eos - interfaces
+Processing Getter: interfaces_counters
+SUCCESS : leaf5-eos - interfaces_counters
+Processing Getter: interfaces_ip
+SUCCESS : leaf5-eos - interfaces_ip
+Processing Getter: lldp_neighbors
+SUCCESS : leaf5-eos - lldp_neighbors
+Processing Getter: lldp_neighbors_detail
+SUCCESS : leaf5-eos - lldp_neighbors_detail
+Processing Getter: mac_address_table
+SUCCESS : leaf5-eos - mac_address_table
+Processing Getter: network_instances
+SUCCESS : leaf5-eos - network_instances
+Processing Getter: ntp_servers
+SUCCESS : leaf5-eos - ntp_servers
+Processing Getter: ntp_stats
+SUCCESS : leaf5-eos - ntp_stats
+Processing Getter: optics
+SUCCESS : leaf5-eos - optics
+Processing Getter: snmp_information
+SUCCESS : leaf5-eos - snmp_information
+Processing Getter: users
+SUCCESS : leaf5-eos - users
+** End Processing Host: leaf5-eos
+
+** Start Processing Host: leaf6-eos
+Processing running config ... 
+SUCCESS : leaf6-eos - running config
+Processing startup config ... 
+SUCCESS : leaf6-eos - startup config
+Processing Getter: arp_table
+SUCCESS : leaf6-eos - arp_table
+Processing Getter: bgp_config
+SUCCESS : leaf6-eos - bgp_config
+Processing Getter: bgp_neighbors
+SUCCESS : leaf6-eos - bgp_neighbors
+Processing Getter: bgp_neighbors_detail
+SUCCESS : leaf6-eos - bgp_neighbors_detail
+Processing Getter: environment
+SUCCESS : leaf6-eos - environment
+Processing Getter: facts
+SUCCESS : leaf6-eos - facts
+Processing Getter: interfaces
+SUCCESS : leaf6-eos - interfaces
+Processing Getter: interfaces_counters
+SUCCESS : leaf6-eos - interfaces_counters
+Processing Getter: interfaces_ip
+SUCCESS : leaf6-eos - interfaces_ip
+Processing Getter: lldp_neighbors
+SUCCESS : leaf6-eos - lldp_neighbors
+Processing Getter: lldp_neighbors_detail
+SUCCESS : leaf6-eos - lldp_neighbors_detail
+Processing Getter: mac_address_table
+SUCCESS : leaf6-eos - mac_address_table
+Processing Getter: network_instances
+SUCCESS : leaf6-eos - network_instances
+Processing Getter: ntp_servers
+SUCCESS : leaf6-eos - ntp_servers
+Processing Getter: ntp_stats
+SUCCESS : leaf6-eos - ntp_stats
+Processing Getter: optics
+SUCCESS : leaf6-eos - optics
+Processing Getter: snmp_information
+SUCCESS : leaf6-eos - snmp_information
+Processing Getter: users
+SUCCESS : leaf6-eos - users
+** End Processing Host: leaf6-eos
+
+** Start Processing Host: leaf3-qfx
+Processing running config ... 
+SUCCESS : leaf3-qfx - running config
+Processing candidate config ... 
+SUCCESS : leaf3-qfx - candidate config
+Processing Getter: arp_table
+SUCCESS : leaf3-qfx - arp_table
+Processing Getter: bgp_config
+FAILURE : leaf3-qfx - bgp_config
+Processing Getter: bgp_neighbors
+SUCCESS : leaf3-qfx - bgp_neighbors
+Processing Getter: bgp_neighbors_detail
+SUCCESS : leaf3-qfx - bgp_neighbors_detail
+Processing Getter: environment
+SUCCESS : leaf3-qfx - environment
+Processing Getter: facts
+SUCCESS : leaf3-qfx - facts
+Processing Getter: interfaces
+SUCCESS : leaf3-qfx - interfaces
+Processing Getter: interfaces_counters
+SUCCESS : leaf3-qfx - interfaces_counters
+Processing Getter: interfaces_ip
+SUCCESS : leaf3-qfx - interfaces_ip
+Processing Getter: ipv6_neighbors_table
+SUCCESS : leaf3-qfx - ipv6_neighbors_table
+Processing Getter: lldp_neighbors
+SUCCESS : leaf3-qfx - lldp_neighbors
+Processing Getter: lldp_neighbors_detail
+SUCCESS : leaf3-qfx - lldp_neighbors_detail
+Processing Getter: mac_address_table
+SUCCESS : leaf3-qfx - mac_address_table
+Processing Getter: network_instances
+SUCCESS : leaf3-qfx - network_instances
+Processing Getter: ntp_peers
+SUCCESS : leaf3-qfx - ntp_peers
+Processing Getter: ntp_servers
+SUCCESS : leaf3-qfx - ntp_servers
+Processing Getter: ntp_stats
+SUCCESS : leaf3-qfx - ntp_stats
+Processing Getter: optics
+SUCCESS : leaf3-qfx - optics
+Processing Getter: snmp_information
+SUCCESS : leaf3-qfx - snmp_information
+Processing Getter: users
+SUCCESS : leaf3-qfx - users
+** End Processing Host: leaf3-qfx
+
+** Start Processing Host: leaf4-qfx
+Processing running config ... 
+SUCCESS : leaf4-qfx - running config
+Processing candidate config ... 
+SUCCESS : leaf4-qfx - candidate config
+Processing Getter: arp_table
+SUCCESS : leaf4-qfx - arp_table
+Processing Getter: bgp_config
+FAILURE : leaf4-qfx - bgp_config
+Processing Getter: bgp_neighbors
+SUCCESS : leaf4-qfx - bgp_neighbors
+Processing Getter: bgp_neighbors_detail
+SUCCESS : leaf4-qfx - bgp_neighbors_detail
+Processing Getter: environment
+SUCCESS : leaf4-qfx - environment
+Processing Getter: facts
+SUCCESS : leaf4-qfx - facts
+Processing Getter: interfaces
+SUCCESS : leaf4-qfx - interfaces
+Processing Getter: interfaces_counters
+SUCCESS : leaf4-qfx - interfaces_counters
+Processing Getter: interfaces_ip
+SUCCESS : leaf4-qfx - interfaces_ip
+Processing Getter: ipv6_neighbors_table
+SUCCESS : leaf4-qfx - ipv6_neighbors_table
+Processing Getter: lldp_neighbors
+SUCCESS : leaf4-qfx - lldp_neighbors
+Processing Getter: lldp_neighbors_detail
+SUCCESS : leaf4-qfx - lldp_neighbors_detail
+Processing Getter: mac_address_table
+SUCCESS : leaf4-qfx - mac_address_table
+Processing Getter: network_instances
+SUCCESS : leaf4-qfx - network_instances
+Processing Getter: ntp_peers
+SUCCESS : leaf4-qfx - ntp_peers
+Processing Getter: ntp_servers
+SUCCESS : leaf4-qfx - ntp_servers
+Processing Getter: ntp_stats
+SUCCESS : leaf4-qfx - ntp_stats
+Processing Getter: optics
+SUCCESS : leaf4-qfx - optics
+Processing Getter: snmp_information
+SUCCESS : leaf4-qfx - snmp_information
+Processing Getter: users
+SUCCESS : leaf4-qfx - users
+** End Processing Host: leaf4-qfx
+
+SUMMARY
+
+SUCCESS COUNT : 124
+FAILURE COUNT : 2
+TOTAL COUNT : 126

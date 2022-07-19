@@ -1,0 +1,20 @@
+[
+  {
+    "interface": "Ethernet1",
+    "mac": "50:0B:00:00:1B:08",
+    "ip": "10.1.6.1",
+    "age": 14.0
+  },
+  {
+    "interface": "Ethernet2",
+    "mac": "50:0C:00:00:1B:08",
+    "ip": "10.2.6.1",
+    "age": 2.0
+  },
+  {
+    "interface": "Management1",
+    "mac": "2E:D0:E6:56:E4:BE",
+    "ip": "172.29.151.254",
+    "age": 0.0
+  }
+]

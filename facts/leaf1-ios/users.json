@@ -1,0 +1,15 @@
+{
+  "admin": {
+    "level": 15,
+    "password": "$1$fORr$9bKm25XeY3kwKAv.kmB4b0",
+    "sshkeys": []
+  },
+  "lab": {
+    "level": 15,
+    "password": "$1$lBts$LJ0VtfClm6ec3aWdSM1Zh.",
+    "sshkeys": [
+      "ssh-rsa 6CCF9BB738AA861BB95D1F6FE51C2457",
+      ""
+    ]
+  }
+}

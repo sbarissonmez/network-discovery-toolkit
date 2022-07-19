@@ -1,0 +1,34 @@
+{
+  "Management1": {
+    "ipv4": {
+      "172.29.151.7": {
+        "prefix_length": 24
+      }
+    },
+    "ipv6": {}
+  },
+  "Loopback0": {
+    "ipv4": {
+      "5.5.5.5": {
+        "prefix_length": 32
+      }
+    },
+    "ipv6": {}
+  },
+  "Ethernet2": {
+    "ipv4": {
+      "10.2.5.2": {
+        "prefix_length": 30
+      }
+    },
+    "ipv6": {}
+  },
+  "Ethernet1": {
+    "ipv4": {
+      "10.1.5.2": {
+        "prefix_length": 30
+      }
+    },
+    "ipv6": {}
+  }
+}
