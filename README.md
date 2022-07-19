@@ -237,9 +237,9 @@ and provides a summary of what failed and succeeded. This file follows the namin
 
 _DISCOVERY-LOG-YYYY-MM-DD-HH-MM-SS.txt_  
 
-A collection run on July the 10th, 2019 at 19:19:54 would have the log file name of:  
+A collection run on July the 19th, 2022 at 19:59:00 would have the log file name of:  
 
-DISCOVERY-LOG-2019-07-10-19-19-54.txt
+DISCOVERY-LOG-2022-07-19-19-59-00.txt
 
 From here, you could SCP these files to a central location, or commit them to a central repository for version control and tracking.
 
@@ -272,9 +272,9 @@ and provides a summary of what failed and succeeded. This file follows the namin
 
 _COLLECTION-LOG-YYYY-MM-DD-HH-MM-SS.txt_  
 
-A collection run on July the 10th, 2019 at 19:19:54 would have the log file name of:  
+A collection run on July the 19th, 2022 at 19:57:56 would have the log file name of:  
 
-COLLECTION-LOG-2019-07-10-19-19-54.txt
+COLLECTION-LOG-2022-07-19-19-57-56.txt
 
 ![collect_sample](./example/sample-collect-output-1.png)
 
